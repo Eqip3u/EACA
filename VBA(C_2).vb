@@ -1,4 +1,3 @@
-﻿Module Module1
     Sub Main()
         Dim M As Integer, N As Integer
         M = Val(InputBox("Введите первое число"))
@@ -12,4 +11,3 @@
         Loop
         MsgBox("НОД =" & M)
     End Sub
-End Module
