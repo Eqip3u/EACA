@@ -1,2 +1,1 @@
 # EACU
-pub
