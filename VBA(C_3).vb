@@ -1,4 +1,3 @@
-﻿Module Module1
     Sub Main()
         Dim a, b, c, x1, x2, D
         a = Val(InputBox("Введите коэффициет a"))
@@ -14,4 +13,3 @@
             MsgBox("Действительных корней не существует")
         End If
     End Sub
-End Module
