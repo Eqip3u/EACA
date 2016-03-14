@@ -1,4 +1,3 @@
-﻿Module Module1
     Sub ageRequest()
         Dim vInput
         vInput = InputBox("Введите свой возраст") 'запрос
@@ -17,4 +16,3 @@
             MsgBox("Введите настоящий возраст")
         End If
     End Sub
-End Module
