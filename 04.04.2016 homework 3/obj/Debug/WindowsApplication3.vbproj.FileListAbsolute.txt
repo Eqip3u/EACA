@@ -1,0 +1,26 @@
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\bin\Debug\WindowsApplication3.exe.config
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\bin\Debug\WindowsApplication3.exe
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\bin\Debug\WindowsApplication3.pdb
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\bin\Debug\WindowsApplication3.xml
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.vbprojResolveAssemblyReference.cache
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.Form1.resources
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.Resources.resources
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.vbproj.GenerateResource.Cache
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.exe
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.xml
+c:\users\eqip3u\documents\visual studio 2015\Projects\WindowsApplication3\obj\Debug\WindowsApplication3.pdb
+C:\Users\Eqip3u\Desktop\WindowsApplication3\bin\Debug\WindowsApplication3.exe.config
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.exe
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.xml
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.pdb
+C:\Users\Eqip3u\Desktop\WindowsApplication3\bin\Debug\WindowsApplication3.exe
+C:\Users\Eqip3u\Desktop\WindowsApplication3\bin\Debug\WindowsApplication3.pdb
+C:\Users\Eqip3u\Desktop\WindowsApplication3\bin\Debug\WindowsApplication3.xml
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.vbprojResolveAssemblyReference.cache
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.Form1.resources
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.Resources.resources
+C:\Users\Eqip3u\Desktop\WindowsApplication3\obj\Debug\WindowsApplication3.vbproj.GenerateResource.Cache
+C:\Users\Eqip3u\Desktop\Задание 3\bin\Debug\WindowsApplication3.exe.config
+C:\Users\Eqip3u\Desktop\Задание 3\obj\Debug\WindowsApplication3.exe
+C:\Users\Eqip3u\Desktop\Задание 3\obj\Debug\WindowsApplication3.xml
+C:\Users\Eqip3u\Desktop\Задание 3\obj\Debug\WindowsApplication3.pdb
