@@ -1,95 +1,46 @@
 using System;
 
-namespace ConsoleApplication33
+namespace AutomorphicNumber
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var day = int.Parse(Console.ReadLine());
-            var month = int.Parse(Console.ReadLine());
+	class MainClass
+	{
+		static bool isAutomorphic(int x) // https://written.ru/articles/science/automorph формула 1а
+		{
+			int countOfDigit = (int)Math.Log10(x) + 1; 
 
-            switch (month)
-            {
-                case 1:
-                    if (day <= 19)
-                        Console.WriteLine("Козерог");
-                    else
-                        Console.WriteLine("Водолей");
-                    break;
-                case 2:
-                    if (day <= 18)
-                        Console.WriteLine("Водолей");
-                    else
-                        Console.WriteLine("Рыбы");
-                    break;
-                case 3:
-                    if (day <= 20)
-                        Console.WriteLine("Рыбы");
-                    else
-                        Console.WriteLine("Овен");
-                    break;
-                case 4:
-                    if (day <= 19)
-                        Console.WriteLine("Овен");
-                    else
-                        Console.WriteLine("Телец");
-                    break;
-                case 5:
-                    if (day <= 20)
-                        Console.WriteLine("Телец");
-                    else
-                        Console.WriteLine("Близнецы");
-                    break;
-                case 6:
-                    if (day <= 20)
-                        Console.WriteLine("Близнецы");
-                    else
-                        Console.WriteLine("Рак");
-                    break;
-                case 7:
-                    if (day <= 22)
-                        Console.WriteLine("Рак");
-                    else
-                        Console.WriteLine("Лев");
-                    break;
-                case 8:
-                    if (day <= 22)
-                        Console.WriteLine("Лев");
-                    else
-                        Console.WriteLine("Дева");
-                    break;
-                case 9:
-                    if (day <= 22)
-                        Console.WriteLine("Дева");
-                    else
-                        Console.WriteLine("Весы");
-                    break;
-                case 10:
-                    if (day <= 22)
-                        Console.WriteLine("Весы");
-                    else
-                        Console.WriteLine("Скорпион");
-                    break;
-                case 11:
-                    if (day <= 21)
-                        Console.WriteLine("Скорпион");
-                    else
-                        Console.WriteLine("Стрелец");
-                    break;
-                case 12:
-                    if (day <= 21)
-                        Console.WriteLine("Стрелец");
-                    else
-                        Console.WriteLine("Козерог");
-                    break;
+			return (x * x) % DecimalFactor(countOfDigit) == x;
+		}
 
-                default:
-                    Console.WriteLine("Введите нормальную дату");
-                    break;
-            }
+		static int DecimalFactor(int n) 
+		{
+			int temp = 1;
+			for (int i = 0; i < n; i++)
+				temp *= 10;
+			return temp;
+		}
 
-            Console.Read();
-        }
-    }
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Интервал от 1 до 100");
+
+			while (true)
+			{
+				Console.WriteLine("Введите число:");
+				var userNumber = int.Parse(Console.ReadLine());
+
+				if (userNumber == 1)
+				{
+					Console.WriteLine("Число '1' не является автоморфным");
+					continue;
+				}
+
+				if (isAutomorphic(userNumber))
+					Console.WriteLine($"Число {userNumber} автоморфно");
+
+				if (!isAutomorphic(userNumber))
+					Console.WriteLine($"Число {userNumber} не автоморфно");
+			}
+
+		}
+	}
 }
